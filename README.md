@@ -4,13 +4,13 @@ This project contains work examples and a simple front-end web application built
 
 ## Anonymised examples of BPMN modelling
 
-# FTTH Order Fulfillment
+### FTTH Order Fulfillment Process Description
 
 [Open BPMN model in Camunda Modeler](https://modeler.camunda.io/share/0634a762-bc18-47ab-8a02-82d3b5f0c27e)
 
 Models order entry and fulfillment processes for FTTH (fibre-to-the-home) Broadband Internet products of a communications provider based on Deutsche Telekom (DTAG) infrastructure. Such processes may have a long duration, as for the Not Connected case (ie. product is ordered in a neighbourhood where fibre construction is not yet started/complete) order fulfillment may last many months or up to a year and a half. The process differentiates among the phases of order entry, not connected, connected and service activation. Communication with the infrastructure provider (DTAG) is by means of standardized messages as per the WITA specification.
 
-# Glossary – FTTH Terms
+### Glossary – FTTH Terms
 
 | Term                        | Meaning |
 |-----------------------------|---------|
@@ -46,7 +46,7 @@ Models order entry and fulfillment processes for FTTH (fibre-to-the-home) Broadb
 | **VLT**                     | *Verbindlicher Liefertermin* (i.e. contractual delivery date or activation date). |
 
 
-## This Web Project Structure
+# This Web Project Structure
 
 ```
 my-web-app
